@@ -1,0 +1,1 @@
+[![Continuous Integration](https://github.com/ganzinn/github-actions-sample/actions/workflows/ci.yml/badge.svg)](https://github.com/ganzinn/github-actions-sample/actions/workflows/ci.yml)
