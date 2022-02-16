@@ -19,7 +19,7 @@ jobs:
       - name: Cache NPM
         uses: actions/cache@v2.0.0
         with:
-          path: ${{ step.npm-cache.outputsdir }}
+          path: ${{ step.npm-cache.outputs.dir }}
           key: ${{ runner.os }}-node-${{ hashFiles('**/pachage-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
