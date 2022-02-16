@@ -15,7 +15,7 @@ jobs:
       - name: Set Node.js ${{ matrix.os }}
         uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.os }}
+          node-version: ${{ matrix.node }}
       - name: Get NPM cache directory
         id: npm-cache
         run: |
